@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+        <members>OSIS_PiDevClubOrderController</members>
+		<members>OSIS_PIDevClubRenewalBatch</members>
+		<members>OSIS_PIDevClubRenewalBatchScheduleHelper</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>OSIS_Opp_CannotCreated</members>
+		<members>OSIS_Pt_Partner_Solution_Default_Status</members>
+		<members>OSIS_Quote</members>
+		<members>OSIS_SingleContract</members>
+		<members>OSIS_Net30</members>
+		<members>OSIS_Download</members>
+		<members>OSIS_NoShipment</members>
+		<members>OSIS_Started</members>
+		<members>OSIS_DevClub</members>
+		<members>OSIS_Email_For_PIDevClub_Customer</members>
+		<members>OSIS_POV</members>
+		<members>OSIS_Billable</members>
+		<members>OSIS_CC_InvoicingInProgress</members>
+		<members>OSIS_CC_Canceled</members>
+        <name>CustomLabel</name>
+    </types>
+	<types>
+		<members>WorkOrder.OSIS_Quote_Requested_by__c</members>
+		<members>WorkOrder.OSIS_External_Status__c</members>
+		<members>WorkOrder.OSIS_Days_in_New__c</members>
+		<members>WorkOrder.OSIS_Days_in_Job_Being_Quailified__c</members>
+		<members>WorkOrder.OSIS_Days_in_Quote_Request__c</members>
+		<members>WorkOrder.OSIS_Days_in_Pending_PO__c</members>
+		<members>WorkOrder.OSIS_Days_in_Tentative__c</members>
+		<members>WorkOrder.OSIS_Days_in_Ready_for_Schedule__c</members>
+		<members>WorkOrder.OSIS_Days_in_Service_Complete__c</members>
+		<members>WorkOrder.OSIS_Days_in_Ready_to_Invoice__c</members>
+		<members>WorkOrder.OSIS_Opportunity__c</members>
+		<members>WorkOrder.OSIS_Approver_User__c</members>
+		<members>WorkOrder.OSIS_Is_Discounted_Service__c</members>
+		<members>WorkOrder.OSIS_Services_Billable__c</members>
+		<members>WorkOrder.OSIS_Days_in_Invoicing_in_Progress__c</members>
+		<members>WorkOrder.Service_Type__c</members>
+		<members>WorkOrder.Service_Territory__c</members>
+		<members>ServiceAppointment.OSIS_TravelLivingExpense__c</members>
+		<members>ServiceAppointment.OSIS_MealExpenses__c</members>
+		<name>CustomField</name>
+    </types>
+	<types>
+		<members>WorkOrder.OSIsoft_Work_Order_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+	<types>
+        <members>WorkOrder.FSL_Work_Order</members>
+		<members>WorkOrder.FSL_Work_Order_RO</members>
+        <name>RecordType</name>
+    </types>
+	<types>
+        <members>WorkOrder_Service_Process_builder</members>
+		<members>CPQ_Quote_Process_Builder</members>
+		<members>Subscription_Process_Builder</members>
+		<members>workOrderRecordTypeUpdate</members>
+		<members>Service_Territory_and_Type_Assignment</members>
+		<members>WorkOrderAutoRollUpExpenses</members>
+		<name>Flow</name>
+    </types>
+	<types>
+		<members>SBQQ__Quote__c.Denied_party_check</members>
+		<!-- <members>SBQQ__Quote__c.End_Date_Before_Start_Date</members> -->
+		<members>SBQQ__Quote__c.Eval_Download_Contact_For_Eval_Quote</members>
+		<!-- <members>SBQQ__Quote__c.Invalid_First_Segment_Term_End_Date</members> -->
+		<!-- <members>SBQQ__Quote__c.Invalid_Subscription_Term</members> -->
+		<members>SBQQ__Quote__c.OSIS_Account_Type_validation</members>
+		<members>SBQQ__Quote__c.OSIS_Additional_Discount_valn</members>
+		<members>SBQQ__Quote__c.PO_Against_Expired_Quote_Approved</members>
+		<members>SBQQ__Quote__c.Presented_Status_Selection_Condition</members>
+		<members>SBQQ__Quote__c.Primary_Contact_Validation</members>
+		<members>SBQQ__Quote__c.Quote_Creation_From_Service</members>
+		<members>SBQQ__Quote__c.Quote_Validity_Date_Extension</members>
+		<members>SBQQ__Quote__c.Revenue_Opportunity_Cannot_Be_Null</members>
+		<members>SBQQ__Quote__c.Subscription_should_be_less_than_3_month</members>
+		<!-- <members>SBQQ__QuoteLine__c.Additional_discount_percent_or_amount</members> -->
+		<members>SBQQ__QuoteLine__c.End_Date_Should_Be_Less_Than_3_Months</members>
+		<members>SBQQ__QuoteLine__c.End_Dates_Cant_Be_Changed_On_Amendments</members>
+		<!-- <members>SBQQ__QuoteLine__c.Invalid_Subscription_Term</members> -->
+		<members>SBQQ__QuoteLine__c.Line_Level_Discounts_Validation</members>
+		<!-- <members>SBQQ__QuoteLine__c.Markup_percent_or_amount</members> -->
+		<members>SBQQ__QuoteLine__c.Quoteline_quantity_cannot_be_Editable</members>
+		<!-- <members>SBQQ__QuoteLine__c.RecurringChargeTypeMustHaveBillingType</members> -->
+		<!-- <members>SBQQ__QuoteLine__c.Validate_billing_frequency</members> -->
+		<!-- <members>SBQQ__QuoteLine__c.Validate_billing_type</members> -->
+		<!-- <members>SBQQ__Subscription__c.Renewal_Quantity_cannot_be_editable</members> -->
+        <name>ValidationRule</name>
+    </types>
+	<types>
+		<members>SBQQ__QuoteLine__c.Check Skip SAP checkbox if the related Quote is having service and required by is Null</members>
+		<name>WorkflowRule</name>
+	</types>
+    <version>45.0</version>
+</Package>
